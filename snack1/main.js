@@ -54,5 +54,11 @@ const zucchine = [
         lunghezza: 12,
     },
 ]
+//console.log(zucchine);
 
-console.log(zucchine);
+let pesoZucchine = 0;
+zucchine.forEach(weight => {
+    pesoZucchine += weight.peso;
+});
+
+console.log(pesoZucchine);
